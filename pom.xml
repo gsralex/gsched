@@ -9,8 +9,8 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>com.gsralex.gsched.scheder</module>
-        <module>com.gsralex.gsched.worker</module>
+        <module>gsched-scheder</module>
+        <module>gsched-worker</module>
     </modules>
 
     <properties>
