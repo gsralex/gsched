@@ -11,12 +11,30 @@
     <modules>
         <module>gsched-scheder</module>
         <module>gsched-worker</module>
+        <module>gched-storage</module>
     </modules>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <netty.version>4.1.111.Final</netty.version>
+        <jgrapht.version>1.5.2</jgrapht.version>
     </properties>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>${netty.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jgrapht</groupId>
+            <artifactId>jgrapht-core</artifactId>
+            <version>${jgrapht.version}</version>
+        </dependency>
+
+    </dependencies>
 
 </project>
