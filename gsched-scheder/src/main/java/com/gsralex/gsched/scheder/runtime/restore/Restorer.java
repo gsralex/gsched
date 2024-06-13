@@ -1,4 +1,4 @@
 package com.gsralex.gsched.scheder.runtime.restore;
 
-public interface RuntimeRestorer {
+public interface Restorer {
 }
