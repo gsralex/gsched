@@ -1,5 +1,7 @@
 package com.gsralex.gsched.scheder.api;
 
-public class FlowApi {
+public interface FlowApi {
 
+
+    void jobFinished();
 }
