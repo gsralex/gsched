@@ -16,4 +16,12 @@ public class FlowDef {
         return graph.getDescendants(v);
     }
 
+    public Set<EdgeDef> incomingEdgesOf(JobDef v) {
+        return graph.incomingEdgesOf(v);
+    }
+
+    public Set<EdgeDef> outgoingEdgesOf(JobDef v){
+        return graph.outgoingEdgesOf(v);
+    }
+
 }

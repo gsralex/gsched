@@ -13,8 +13,9 @@
     <artifactId>gched-storage</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>gsched-storage-mysql</module>
+        <module>gsched-storage-jdbc</module>
         <module>gsched-storage-common</module>
+        <module>gsched-storage-file</module>
     </modules>
 
     <properties>

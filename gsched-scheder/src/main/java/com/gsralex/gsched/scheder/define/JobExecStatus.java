@@ -5,7 +5,12 @@ public enum JobExecStatus {
     PENDING,
     SKIPPED,
     RUNNING,
-    STOPPED,
-    
+    STOPPED;
+
+
+    public boolean isReady() {
+        return false;
+    }
+
 
 }

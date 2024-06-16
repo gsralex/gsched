@@ -6,7 +6,7 @@
         <artifactId>gched-storage</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>gsched-storage-mysql</artifactId>
-    <name>Archetype - gsched-storage-mysql</name>
+    <artifactId>gsched-storage-file</artifactId>
+    <name>Archetype - gsched-storage-file</name>
     <url>http://maven.apache.org</url>
 </project>
